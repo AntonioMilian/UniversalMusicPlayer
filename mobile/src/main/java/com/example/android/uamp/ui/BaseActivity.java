@@ -63,7 +63,7 @@ public abstract class BaseActivity extends ActionBarCastActivity implements Medi
     }
 
     @Override
-    protected void onStart() {
+    protected void onStart() { //pero quien puede entender estoooooo
         super.onStart();
         LogHelper.d(TAG, "Activity onStart");
 
